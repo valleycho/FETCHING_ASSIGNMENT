@@ -898,7 +898,25 @@ export const dummyAllProductData = [
     "price": 600000,
     "rate": 30,
     "stockOut": false
-  }
+  },
+  {
+    "id": 101,
+    "title": "전자식 키보드",
+    "description": "타이핑의 즐거움을 선사하는 전자식 키보드",
+    "brandName": "Corsair",
+    "price": 120000,
+    "rate": 15,
+    "stockOut": false
+  },
+  {
+    "id": 102,
+    "title": "기계식 키보드 B22",
+    "description": "타이핑의 즐거움을 선사하는 기계식 키보드 B22",
+    "brandName": "Corsair",
+    "price": 140000,
+    "rate": 15,
+    "stockOut": false
+  },
 ] as const;
 
 export const dummyProductData = dummyAllProductData.filter((product) => product.stockOut === false);

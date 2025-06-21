@@ -1,5 +1,6 @@
 import { Product } from "@/app/types/productTypes";
 import Image from "next/image";
+import { TfiClose } from "react-icons/tfi";
 
 interface ProductCardProps {
   product: Product;
@@ -7,7 +8,16 @@ interface ProductCardProps {
 
 const ProductCard = ({ product }: ProductCardProps) => {
   return (
-    <section className="rounded-lg border border-gray-200 shadow-md">
+    <section className="rounded-lg border border-gray-200 shadow-md relative">
+      {product.stockOut && (
+        <div className="bg-[#0000008a] absolute top-0 left-0 w-full h-full z-10 flex justify-center items-center flex-col">
+          <TfiClose className="text-white z-20 text-9xl" />
+          <h3 className="text-white text-xl font-bold mt-3">
+            품절된 상품입니다
+          </h3>
+        </div>
+      )}
+
       <picture className="w-full h-[200px] block relative">
         <Image src="https://picsum.photos/200/200" alt="product-image" fill />
       </picture>

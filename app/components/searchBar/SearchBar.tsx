@@ -3,11 +3,15 @@
 import { useDebounce } from "@/app/hooks/useDebounce";
 import { useSearchProductsService } from "@/app/service/search/useSearchService";
 import { SearchResult } from "@/app/types/searchTypes";
+import { useRouter, useSearchParams } from "next/navigation";
 import React from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { IoSearchSharp } from "react-icons/io5";
 
 const SearchBar = () => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,14 +33,38 @@ const SearchBar = () => {
     []
   );
 
-  const handleSelectResult = useCallback((result: SearchResult) => {
-    setQuery(result.title);
-    setIsOpen(false);
-  }, []);
+  const handleSearch = useCallback(() => {
+    router.push(`?q=${query}`);
+  }, [query, router]);
+
+  const handleSelectResult = useCallback(
+    (result: SearchResult) => {
+      setQuery(result.title);
+      setIsOpen(false);
+
+      handleSearch();
+    },
+    [handleSearch]
+  );
+
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLInputElement>) => {
+      if (e.key === "Enter") {
+        setIsOpen(false);
+        handleSearch();
+      }
+    },
+    [query]
+  );
 
   useEffect(() => {
     setIsOpen(query.length >= 2);
   }, [searchResults, query]);
+
+  useEffect(() => {
+    const urlQuery = searchParams.get("q") || "";
+    setQuery(urlQuery);
+  }, [searchParams]);
 
   // 외부 클릭 시 드롭다운 닫기
   useEffect(() => {
@@ -64,9 +92,13 @@ const SearchBar = () => {
           className="flex-1 p-3 pl-4 pr-12 focus:outline-none bg-transparent text-slate-700 placeholder-slate-400"
           value={query}
           onChange={handleInputChange}
+          onKeyDown={(e) => handleKeyDown(e)}
         />
 
-        <button className="absolute right-3 p-2 text-slate-400 hover:text-blue-500 rounded-lg transition-all duration-200 cursor-pointer">
+        <button
+          className="absolute right-3 p-2 text-slate-400 hover:text-blue-500 rounded-lg transition-all duration-200 cursor-pointer"
+          onClick={handleSearch}
+        >
           <IoSearchSharp size={18} />
         </button>
       </div>
