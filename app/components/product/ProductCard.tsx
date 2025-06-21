@@ -19,7 +19,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       )}
 
       <picture className="w-full h-[200px] block relative">
-        <Image src="https://picsum.photos/200/200" alt="product-image" fill />
+        <Image src={product.imgUrl} alt="product-image" fill />
       </picture>
 
       <div className="p-4">

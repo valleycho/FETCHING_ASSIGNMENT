@@ -6,4 +6,5 @@ export interface Product {
   price: number;
   rate: number;
   stockOut: boolean;
+  imgUrl: string;
 }

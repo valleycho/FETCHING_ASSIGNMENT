@@ -6,7 +6,8 @@ export const dummyAllProductData = [
     "brandName": "Sony",
     "price": 89000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=1"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@ export const dummyAllProductData = [
     "brandName": "Apple",
     "price": 450000,
     "rate": 0,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=2"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@ export const dummyAllProductData = [
     "brandName": "ASUS",
     "price": 1800000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=3"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@ export const dummyAllProductData = [
     "brandName": "Converse",
     "price": 65000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=4"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@ export const dummyAllProductData = [
     "brandName": "Nike",
     "price": 85000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=5"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@ export const dummyAllProductData = [
     "brandName": "Logitech",
     "price": 45000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=6"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@ export const dummyAllProductData = [
     "brandName": "JBL",
     "price": 120000,
     "rate": 15,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=7"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@ export const dummyAllProductData = [
     "brandName": "Samsung",
     "price": 1200000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=8"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@ export const dummyAllProductData = [
     "brandName": "Adidas",
     "price": 95000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=9"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@ export const dummyAllProductData = [
     "brandName": "Razer",
     "price": 35000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=10"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@ export const dummyAllProductData = [
     "brandName": "Levi's",
     "price": 120000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=11"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@ export const dummyAllProductData = [
     "brandName": "Corsair",
     "price": 180000,
     "rate": 15,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=12"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@ export const dummyAllProductData = [
     "brandName": "Apple",
     "price": 800000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=13"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@ export const dummyAllProductData = [
     "brandName": "Bose",
     "price": 350000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=14"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@ export const dummyAllProductData = [
     "brandName": "Nike",
     "price": 75000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=15"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@ export const dummyAllProductData = [
     "brandName": "LG",
     "price": 450000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=16"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@ export const dummyAllProductData = [
     "brandName": "Uniqlo",
     "price": 29000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=17"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@ export const dummyAllProductData = [
     "brandName": "Logitech",
     "price": 85000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=18"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@ export const dummyAllProductData = [
     "brandName": "Dr. Martens",
     "price": 180000,
     "rate": 15,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=19"
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@ export const dummyAllProductData = [
     "brandName": "Dell",
     "price": 1500000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=20"
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@ export const dummyAllProductData = [
     "brandName": "Zara",
     "price": 89000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=21"
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@ export const dummyAllProductData = [
     "brandName": "Sony",
     "price": 150000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=22"
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@ export const dummyAllProductData = [
     "brandName": "H&M",
     "price": 45000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=23"
   },
   {
     "id": 24,
@@ -213,7 +236,8 @@ export const dummyAllProductData = [
     "brandName": "Clarks",
     "price": 120000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=24"
   },
   {
     "id": 25,
@@ -222,7 +246,8 @@ export const dummyAllProductData = [
     "brandName": "Razer",
     "price": 25000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=25"
   },
   {
     "id": 26,
@@ -231,7 +256,8 @@ export const dummyAllProductData = [
     "brandName": "Nine West",
     "price": 95000,
     "rate": 15,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=26"
   },
   {
     "id": 27,
@@ -240,7 +266,8 @@ export const dummyAllProductData = [
     "brandName": "Longchamp",
     "price": 180000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=27"
   },
   {
     "id": 28,
@@ -249,7 +276,8 @@ export const dummyAllProductData = [
     "brandName": "Sam Edelman",
     "price": 85000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=28"
   },
   {
     "id": 29,
@@ -258,7 +286,8 @@ export const dummyAllProductData = [
     "brandName": "Ergotron",
     "price": 120000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=29"
   },
   {
     "id": 30,
@@ -267,7 +296,8 @@ export const dummyAllProductData = [
     "brandName": "H&M",
     "price": 55000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=30"
   },
   {
     "id": 31,
@@ -276,7 +306,8 @@ export const dummyAllProductData = [
     "brandName": "Anker",
     "price": 15000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=31"
   },
   {
     "id": 32,
@@ -285,7 +316,8 @@ export const dummyAllProductData = [
     "brandName": "Salomon",
     "price": 180000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=32"
   },
   {
     "id": 33,
@@ -294,7 +326,8 @@ export const dummyAllProductData = [
     "brandName": "Kate Spade",
     "price": 120000,
     "rate": 15,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=33"
   },
   {
     "id": 34,
@@ -303,7 +336,8 @@ export const dummyAllProductData = [
     "brandName": "Nike",
     "price": 150000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=34"
   },
   {
     "id": 35,
@@ -312,7 +346,8 @@ export const dummyAllProductData = [
     "brandName": "Timbuk2",
     "price": 95000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=35"
   },
   {
     "id": 36,
@@ -321,7 +356,8 @@ export const dummyAllProductData = [
     "brandName": "Adidas",
     "price": 120000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=36"
   },
   {
     "id": 37,
@@ -330,7 +366,8 @@ export const dummyAllProductData = [
     "brandName": "Samsonite",
     "price": 250000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=37"
   },
   {
     "id": 38,
@@ -339,7 +376,8 @@ export const dummyAllProductData = [
     "brandName": "Birkenstock",
     "price": 85000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=38"
   },
   {
     "id": 39,
@@ -348,7 +386,8 @@ export const dummyAllProductData = [
     "brandName": "Hugo Boss",
     "price": 450000,
     "rate": 25,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=39"
   },
   {
     "id": 40,
@@ -357,7 +396,8 @@ export const dummyAllProductData = [
     "brandName": "Zara",
     "price": 180000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=40"
   },
   {
     "id": 41,
@@ -366,7 +406,8 @@ export const dummyAllProductData = [
     "brandName": "The North Face",
     "price": 350000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=41"
   },
   {
     "id": 42,
@@ -375,7 +416,8 @@ export const dummyAllProductData = [
     "brandName": "Uniqlo",
     "price": 45000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=42"
   },
   {
     "id": 43,
@@ -384,7 +426,8 @@ export const dummyAllProductData = [
     "brandName": "Lululemon",
     "price": 120000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=43"
   },
   {
     "id": 44,
@@ -393,7 +436,8 @@ export const dummyAllProductData = [
     "brandName": "Canon",
     "price": 800000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=44"
   },
   {
     "id": 45,
@@ -402,7 +446,8 @@ export const dummyAllProductData = [
     "brandName": "GoPro",
     "price": 450000,
     "rate": 0,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=45"
   },
   {
     "id": 46,
@@ -411,7 +456,8 @@ export const dummyAllProductData = [
     "brandName": "DJI",
     "price": 1200000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=46"
   },
   {
     "id": 47,
@@ -420,7 +466,8 @@ export const dummyAllProductData = [
     "brandName": "Philips",
     "price": 180000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=47"
   },
   {
     "id": 48,
@@ -429,7 +476,8 @@ export const dummyAllProductData = [
     "brandName": "Nespresso",
     "price": 250000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=48"
   },
   {
     "id": 49,
@@ -438,7 +486,8 @@ export const dummyAllProductData = [
     "brandName": "Dyson",
     "price": 800000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=49"
   },
   {
     "id": 50,
@@ -447,7 +496,8 @@ export const dummyAllProductData = [
     "brandName": "Dyson",
     "price": 600000,
     "rate": 30,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=50"
   },
   {
     "id": 51,
@@ -456,7 +506,8 @@ export const dummyAllProductData = [
     "brandName": "Dyson",
     "price": 450000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=51"
   },
   {
     "id": 52,
@@ -465,7 +516,8 @@ export const dummyAllProductData = [
     "brandName": "Philips",
     "price": 120000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=52"
   },
   {
     "id": 53,
@@ -474,7 +526,8 @@ export const dummyAllProductData = [
     "brandName": "Braun",
     "price": 35000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=53"
   },
   {
     "id": 54,
@@ -483,7 +536,8 @@ export const dummyAllProductData = [
     "brandName": "Omron",
     "price": 85000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=54"
   },
   {
     "id": 55,
@@ -492,7 +546,8 @@ export const dummyAllProductData = [
     "brandName": "Tanita",
     "price": 65000,
     "rate": 10,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=55"
   },
   {
     "id": 56,
@@ -501,7 +556,8 @@ export const dummyAllProductData = [
     "brandName": "OSIM",
     "price": 350000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=56"
   },
   {
     "id": 57,
@@ -510,7 +566,8 @@ export const dummyAllProductData = [
     "brandName": "OSIM",
     "price": 2500000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=57"
   },
   {
     "id": 58,
@@ -519,7 +576,8 @@ export const dummyAllProductData = [
     "brandName": "LG",
     "price": 180000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=58"
   },
   {
     "id": 59,
@@ -528,7 +586,8 @@ export const dummyAllProductData = [
     "brandName": "Philips",
     "price": 45000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=59"
   },
   {
     "id": 60,
@@ -537,7 +596,8 @@ export const dummyAllProductData = [
     "brandName": "KitchenAid",
     "price": 120000,
     "rate": 20,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=60"
   },
   {
     "id": 61,
@@ -546,7 +606,8 @@ export const dummyAllProductData = [
     "brandName": "Cuckoo",
     "price": 250000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=61"
   },
   {
     "id": 62,
@@ -555,7 +616,8 @@ export const dummyAllProductData = [
     "brandName": "Samsung",
     "price": 800000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=62"
   },
   {
     "id": 63,
@@ -564,7 +626,8 @@ export const dummyAllProductData = [
     "brandName": "LG",
     "price": 1500000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=63"
   },
   {
     "id": 64,
@@ -573,7 +636,8 @@ export const dummyAllProductData = [
     "brandName": "Samsung",
     "price": 1200000,
     "rate": 25,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=64"
   },
   {
     "id": 65,
@@ -582,7 +646,8 @@ export const dummyAllProductData = [
     "brandName": "LG",
     "price": 800000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=65"
   },
   {
     "id": 66,
@@ -591,7 +656,8 @@ export const dummyAllProductData = [
     "brandName": "Samsung",
     "price": 2000000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=66"
   },
   {
     "id": 67,
@@ -600,7 +666,8 @@ export const dummyAllProductData = [
     "brandName": "Dyson",
     "price": 450000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=67"
   },
   {
     "id": 68,
@@ -609,7 +676,8 @@ export const dummyAllProductData = [
     "brandName": "Sunbeam",
     "price": 85000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=68"
   },
   {
     "id": 69,
@@ -618,7 +686,8 @@ export const dummyAllProductData = [
     "brandName": "Sunbeam",
     "price": 120000,
     "rate": 10,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=69"
   },
   {
     "id": 70,
@@ -627,7 +696,8 @@ export const dummyAllProductData = [
     "brandName": "DeLonghi",
     "price": 180000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=70"
   },
   {
     "id": 71,
@@ -636,7 +706,8 @@ export const dummyAllProductData = [
     "brandName": "DeLonghi",
     "price": 250000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=71"
   },
   {
     "id": 72,
@@ -645,7 +716,8 @@ export const dummyAllProductData = [
     "brandName": "Induction",
     "price": 350000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=72"
   },
   {
     "id": 73,
@@ -654,7 +726,8 @@ export const dummyAllProductData = [
     "brandName": "Samsung",
     "price": 450000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=73"
   },
   {
     "id": 74,
@@ -663,7 +736,8 @@ export const dummyAllProductData = [
     "brandName": "George Foreman",
     "price": 120000,
     "rate": 20,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=74"
   },
   {
     "id": 75,
@@ -672,7 +746,8 @@ export const dummyAllProductData = [
     "brandName": "Tefal",
     "price": 180000,
     "rate": 10,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=75"
   },
   {
     "id": 76,
@@ -681,7 +756,8 @@ export const dummyAllProductData = [
     "brandName": "Instant Pot",
     "price": 250000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=76"
   },
   {
     "id": 77,
@@ -690,7 +766,8 @@ export const dummyAllProductData = [
     "brandName": "Cuckoo",
     "price": 350000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=77"
   },
   {
     "id": 78,
@@ -699,7 +776,8 @@ export const dummyAllProductData = [
     "brandName": "Breville",
     "price": 180000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=78"
   },
   {
     "id": 79,
@@ -708,7 +786,8 @@ export const dummyAllProductData = [
     "brandName": "Breville",
     "price": 250000,
     "rate": 15,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=79"
   },
   {
     "id": 80,
@@ -717,7 +796,8 @@ export const dummyAllProductData = [
     "brandName": "Philips",
     "price": 65000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=80"
   },
   {
     "id": 81,
@@ -726,7 +806,8 @@ export const dummyAllProductData = [
     "brandName": "Cuckoo",
     "price": 200000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=81"
   },
   {
     "id": 82,
@@ -735,7 +816,8 @@ export const dummyAllProductData = [
     "brandName": "Breville",
     "price": 120000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=82"
   },
   {
     "id": 83,
@@ -744,7 +826,8 @@ export const dummyAllProductData = [
     "brandName": "Cuisinart",
     "price": 85000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=83"
   },
   {
     "id": 84,
@@ -753,7 +836,8 @@ export const dummyAllProductData = [
     "brandName": "Cuisinart",
     "price": 95000,
     "rate": 10,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=84"
   },
   {
     "id": 85,
@@ -762,7 +846,8 @@ export const dummyAllProductData = [
     "brandName": "Yogourmet",
     "price": 65000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=85"
   },
   {
     "id": 86,
@@ -771,7 +856,8 @@ export const dummyAllProductData = [
     "brandName": "Yogourmet",
     "price": 85000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=86"
   },
   {
     "id": 87,
@@ -780,7 +866,8 @@ export const dummyAllProductData = [
     "brandName": "Zojirushi",
     "price": 180000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=87"
   },
   {
     "id": 88,
@@ -789,7 +876,8 @@ export const dummyAllProductData = [
     "brandName": "Philips",
     "price": 120000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=88"
   },
   {
     "id": 89,
@@ -798,7 +886,8 @@ export const dummyAllProductData = [
     "brandName": "LEM",
     "price": 250000,
     "rate": 25,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=89"
   },
   {
     "id": 90,
@@ -807,7 +896,8 @@ export const dummyAllProductData = [
     "brandName": "LEM",
     "price": 300000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=90"
   },
   {
     "id": 91,
@@ -816,7 +906,8 @@ export const dummyAllProductData = [
     "brandName": "Presto",
     "price": 180000,
     "rate": 20,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=91"
   },
   {
     "id": 92,
@@ -825,7 +916,8 @@ export const dummyAllProductData = [
     "brandName": "KitchenAid",
     "price": 450000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=92"
   },
   {
     "id": 93,
@@ -834,7 +926,8 @@ export const dummyAllProductData = [
     "brandName": "KitchenAid",
     "price": 120000,
     "rate": 10,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=93"
   },
   {
     "id": 94,
@@ -843,7 +936,8 @@ export const dummyAllProductData = [
     "brandName": "Breville",
     "price": 350000,
     "rate": 25,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=94"
   },
   {
     "id": 95,
@@ -852,7 +946,8 @@ export const dummyAllProductData = [
     "brandName": "GE",
     "price": 180000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=95"
   },
   {
     "id": 96,
@@ -861,7 +956,8 @@ export const dummyAllProductData = [
     "brandName": "Brita",
     "price": 85000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=96"
   },
   {
     "id": 97,
@@ -870,7 +966,8 @@ export const dummyAllProductData = [
     "brandName": "DeLonghi",
     "price": 250000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=97"
   },
   {
     "id": 98,
@@ -879,7 +976,8 @@ export const dummyAllProductData = [
     "brandName": "Philips",
     "price": 120000,
     "rate": 20,
-    "stockOut": true
+    "stockOut": true,
+    "imgUrl": "https://picsum.photos/200/200?random=98"
   },
   {
     "id": 99,
@@ -888,7 +986,8 @@ export const dummyAllProductData = [
     "brandName": "Dyson",
     "price": 800000,
     "rate": 0,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=99"
   },
   {
     "id": 100,
@@ -897,7 +996,8 @@ export const dummyAllProductData = [
     "brandName": "Dyson",
     "price": 600000,
     "rate": 30,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=100"
   },
   {
     "id": 101,
@@ -906,7 +1006,8 @@ export const dummyAllProductData = [
     "brandName": "Corsair",
     "price": 120000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=101"
   },
   {
     "id": 102,
@@ -915,7 +1016,8 @@ export const dummyAllProductData = [
     "brandName": "Corsair",
     "price": 140000,
     "rate": 15,
-    "stockOut": false
+    "stockOut": false,
+    "imgUrl": "https://picsum.photos/200/200?random=102"
   },
 ] as const;
 
