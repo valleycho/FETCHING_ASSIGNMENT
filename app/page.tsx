@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex justify-center h-[calc(100vh-64px)]">
+      <main className="flex justify-center h-[calc(100vh-128px)]">
         <div className="max-w-[1400px] w-full flex">
           <SideNavigator />
 
