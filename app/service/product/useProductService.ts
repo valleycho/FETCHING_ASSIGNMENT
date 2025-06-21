@@ -14,7 +14,7 @@ export const useProductService = () => {
     queryFn: ({ pageParam = 1 }) => {
       return fetch('https://fakestoreapi.com/products')
         .then(res => {
-          const pageSize = 12; // 페이지당 아이템 수
+          const pageSize = 15; // 페이지당 아이템 수
           const startIndex = (pageParam - 1) * pageSize;
           const endIndex = startIndex + pageSize;
 

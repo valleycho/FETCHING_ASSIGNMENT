@@ -11,8 +11,15 @@ const ProductList = () => {
   const searchParams = useSearchParams();
   const query = searchParams.get("q") || "";
 
-  const { products, fetchNextPage, hasNextPage, isFetchingNextPage } =
-    useProductService();
+  const skeletonSize = 15;
+
+  const {
+    products,
+    fetchNextPage,
+    hasNextPage,
+    isFetchingNextPage,
+    isLoading,
+  } = useProductService();
 
   const loadMoreRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -49,9 +56,18 @@ const ProductList = () => {
       )}
 
       <div className="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-4 mt-6">
-        {products.map((product: Product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+        {!isLoading &&
+          products.map((product: Product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+
+        {isLoading &&
+          Array.from({ length: skeletonSize }).map((_, idx) => (
+            <div
+              key={idx}
+              className="w-[376px] h-[330px] bg-gray-300 animate-pulse"
+            />
+          ))}
       </div>
 
       <div ref={loadMoreRef} className="h-0.5" />
