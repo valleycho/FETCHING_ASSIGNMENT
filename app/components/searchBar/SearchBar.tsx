@@ -42,7 +42,7 @@ const SearchBar = () => {
       setQuery(result.title);
       setIsOpen(false);
 
-      handleSearch();
+      router.push(`?q=${result.title}`);
     },
     [handleSearch]
   );
