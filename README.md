@@ -62,4 +62,10 @@
 <br>
 
 <img width="1211" alt="스크린샷 2025-06-22 오전 10 11 26" src="https://github.com/user-attachments/assets/44110eb4-1fb1-45c6-ac8b-ce5db95d6748" />
-무한 스크롤 부분은 tanstack query의 useInfiniteQuery를 사용하여 무한 스크롤을 구현하였습니다. 데이터를 불러오는 도중의 위의 첨부이미지와 같이 데이터를 불러오는 중입니다. 로딩이 출력되게 구성하였습니다.
+무한 스크롤 부분은 tanstack query의 useInfiniteQuery를 사용하여 무한 스크롤을 구현하였습니다. 데이터를 불러오는 도중의 위의 첨부이미지와 같이 데이터를 불러오는 중입니다. 로딩이 출력되게 구성하였습니다.  
+
+<br><br>
+
+<img width="1603" alt="스크린샷 2025-06-22 오전 10 59 20" src="https://github.com/user-attachments/assets/0b77c29d-5a31-4d40-9e54-c02b67dc2aef" />
+SSR을 적용하였고, 잘 됐는지 확인하기 위하여 페이지 소스보기를 통하여 데이터가 있는 부분을 확인하였습니다. 이로 인해 SEO에서도 검색이 잘 되도록 하였습니다.
+
