@@ -48,7 +48,7 @@ const SideNavigator = () => {
       ? Number(searchParams.get("maxPrice"))
       : maxLimitPrice;
     setValue("maxPrice", maxPrice);
-  }, [searchParams, setValue]);
+  }, [maxLimitPrice, searchParams, setValue]);
 
   return (
     <aside className="w-[240px] h-[calc(100vh-64px)]">

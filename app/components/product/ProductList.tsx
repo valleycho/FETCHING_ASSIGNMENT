@@ -25,6 +25,7 @@ const ProductList = () => {
   useEffect(() => {
     if (!loadMoreRef.current || !hasNextPage) return;
 
+    const currentRef = loadMoreRef.current;
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting && hasNextPage) {
@@ -36,18 +37,18 @@ const ProductList = () => {
       }
     );
 
-    observer.observe(loadMoreRef.current);
+    observer.observe(currentRef);
 
     return () => {
-      if (loadMoreRef.current) observer.unobserve(loadMoreRef.current);
+      if (currentRef) observer.unobserve(currentRef);
     };
-  }, [loadMoreRef.current, hasNextPage, fetchNextPage]);
+  }, [hasNextPage, fetchNextPage]);
 
   return (
     <section className="pb-4">
       {query && (
         <div className="flex">
-          <h3 className="font-bold text-sm">'{query}'</h3>
+          <h3 className="font-bold text-sm">&apos{query}&apos</h3>
           <h3 className="font-medium text-sm">에 대한 검색 결과</h3>
           <h3 className="ml-2 font-bold text-sm text-slate-500">
             ({products.length}개)

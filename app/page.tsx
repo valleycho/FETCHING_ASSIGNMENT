@@ -2,14 +2,17 @@ import { Metadata } from "next";
 import Header from "./components/header/Header";
 import ProductList from "./components/product/ProductList";
 import SideNavigator from "./components/sideNavigator/SideNavigator";
+import { SearchParams } from "./types/searchTypes";
+import { Suspense } from "react";
 
 export async function generateMetadata({
   searchParams,
 }: {
-  searchParams: { q?: string; isSoldOut?: string };
+  searchParams: Promise<SearchParams>;
 }): Promise<Metadata> {
-  const query = searchParams.q;
-  const isSoldOut = searchParams.isSoldOut;
+  const params = await searchParams;
+  const query = params.q;
+  const isSoldOut = params.isSoldOut;
 
   if (query) {
     return {
@@ -21,10 +24,10 @@ export async function generateMetadata({
         title: `'${query}' 검색 결과`,
         description: `'${query}'에 대한 검색 결과입니다.`,
       },
-      twitter: {
-        title: `'${query}' 검색 결과`,
-        description: `'${query}'에 대한 검색 결과입니다.`,
-      },
+      // twitter: {
+      //   title: `'${query}' 검색 결과`,
+      //   description: `'${query}'에 대한 검색 결과입니다.`,
+      // },
     };
   }
 
@@ -37,13 +40,19 @@ export async function generateMetadata({
 export default function Home() {
   return (
     <>
-      <Header />
+      <Suspense fallback={<></>}>
+        <Header />
+      </Suspense>
       <main className="flex justify-center h-[calc(100vh-128px)]">
         <div className="max-w-[1400px] w-full flex">
-          <SideNavigator />
+          <Suspense fallback={<></>}>
+            <SideNavigator />
+          </Suspense>
 
           <article className="flex-col p-4 w-full border-l border-l-slate-200">
-            <ProductList />
+            <Suspense fallback={<></>}>
+              <ProductList />
+            </Suspense>
           </article>
         </div>
       </main>

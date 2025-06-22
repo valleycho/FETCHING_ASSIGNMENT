@@ -34,12 +34,12 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "상품 검색 및 쇼핑몰",
-    description: "다양한 상품을 검색하고 구매할 수 있는 온라인 쇼핑몰입니다.",
-    images: ["/og-image.png"],
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "상품 검색 및 쇼핑몰",
+  //   description: "다양한 상품을 검색하고 구매할 수 있는 온라인 쇼핑몰입니다.",
+  //   images: ["/og-image.png"],
+  // },
   robots: {
     index: true,
     follow: true,

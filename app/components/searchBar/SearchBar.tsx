@@ -44,7 +44,7 @@ const SearchBar = () => {
 
       router.push(`?q=${result.title}`);
     },
-    [handleSearch]
+    [router]
   );
 
   const handleKeyDown = useCallback(
@@ -54,7 +54,7 @@ const SearchBar = () => {
         handleSearch();
       }
     },
-    [query]
+    [handleSearch]
   );
 
   useEffect(() => {
