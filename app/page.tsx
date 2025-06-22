@@ -2,8 +2,12 @@ import { Metadata } from "next";
 import Header from "./components/header/Header";
 import ProductList from "./components/product/ProductList";
 import SideNavigator from "./components/sideNavigator/SideNavigator";
-import { SearchParams } from "./types/searchTypes";
 import { Suspense } from "react";
+import { getProducts } from "./service/product/useProductService";
+import { createServerQueryClient } from "./lib/serverQueryClient";
+import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
+import { SearchParams } from "next/dist/server/request/search-params";
+import { MAX_LIMIT_PRICE } from "./data/productConstant";
 
 export async function generateMetadata({
   searchParams,
@@ -24,22 +28,49 @@ export async function generateMetadata({
         title: `'${query}' 검색 결과`,
         description: `'${query}'에 대한 검색 결과입니다.`,
       },
-      // twitter: {
-      //   title: `'${query}' 검색 결과`,
-      //   description: `'${query}'에 대한 검색 결과입니다.`,
-      // },
+      metadataBase: new URL("http://localhost:3000"),
     };
   }
 
   return {
     title: "상품 검색 및 쇼핑몰",
     description: "다양한 상품을 검색하고 구매할 수 있는 온라인 쇼핑몰입니다.",
+    metadataBase: new URL("http://localhost:3000"),
   };
 }
 
-export default function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<SearchParams>;
+}) {
+  const params = await searchParams;
+  const queryClient = createServerQueryClient();
+
+  // 서버 사이드에서 데이터 프리페칭
+  await queryClient.prefetchInfiniteQuery({
+    queryKey: [
+      "products",
+      {
+        query: params.q || "",
+        isSoldOut: params.isSoldOut || "false",
+        minPrice: params.minPrice || "0",
+        maxPrice: params.maxPrice || MAX_LIMIT_PRICE.toString(),
+      },
+    ],
+    queryFn: ({ pageParam = 1 }) =>
+      getProducts({
+        query: params.q as string,
+        isSoldOut: params.isSoldOut as string,
+        minPrice: params.minPrice as string,
+        maxPrice: params.maxPrice as string,
+        pageParam,
+      }),
+    initialPageParam: 1,
+  });
+
   return (
-    <>
+    <HydrationBoundary state={dehydrate(queryClient)}>
       <Suspense fallback={<></>}>
         <Header />
       </Suspense>
@@ -56,6 +87,6 @@ export default function Home() {
           </article>
         </div>
       </main>
-    </>
+    </HydrationBoundary>
   );
 }

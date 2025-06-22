@@ -5,7 +5,6 @@ import ProductCard from "./ProductCard";
 import { Product } from "@/app/types/productTypes";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
 
 const ProductList = () => {
   const searchParams = useSearchParams();
@@ -22,6 +21,7 @@ const ProductList = () => {
   } = useProductService();
 
   const loadMoreRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     if (!loadMoreRef.current || !hasNextPage) return;
 
@@ -48,7 +48,7 @@ const ProductList = () => {
     <section className="pb-4">
       {query && (
         <div className="flex">
-          <h3 className="font-bold text-sm">&apos{query}&apos</h3>
+          <h3 className="font-bold text-sm">&apos;{query}&apos;</h3>
           <h3 className="font-medium text-sm">에 대한 검색 결과</h3>
           <h3 className="ml-2 font-bold text-sm text-slate-500">
             ({products.length}개)

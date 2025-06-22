@@ -18,7 +18,7 @@ function makeQueryClient() {
 
 let clientQueryClient: QueryClient | undefined = undefined;
 
-function getQueryClient() {
+export function getQueryClient() {
   if (typeof window === "undefined") {
     return makeQueryClient();
   } else {
